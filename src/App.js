@@ -1,7 +1,7 @@
 import React from "react";
 import CarData from "./CarData";
 import Card from "./Card";
-import "./App.css";
+import "./App.scss";
 
 class App extends React.Component {
   constructor() {
@@ -15,7 +15,7 @@ class App extends React.Component {
   componentWillMount() {
     const carData = new CarData().load();
     //.sortByYearDesc();
-    const items = carData.items.filter(i => i.make == "Mercedes-Benz");
+    const items = carData.items.filter(i => i.make === "Mercedes-Benz");
     this.setState({
       items: items
     });
@@ -23,8 +23,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="app-card-list" id="app-card-list">
+      <div className="App">
+        <div className="App-card-list">
           {Object.keys(this.state.items).map(key => (
             <Card key={key} index={key} details={this.state.items[key]} />
           ))}

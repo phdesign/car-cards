@@ -1,3 +1,6 @@
+import SavedItems from "./data/saved-items";
+import ExtendedInfo from "./data/extended-info";
+
 class CarData {
   constructor() {
     this.items = [];
@@ -6,18 +9,14 @@ class CarData {
   }
 
   load() {
-    const carData = JSON.parse(document.getElementById("carData").innerHTML);
-    const extendedData = JSON.parse(
-      document.getElementById("extendedData").innerHTML
-    );
-    const extendedDataLookup = extendedData.reduce((result, item) => {
+    const extendedInfoLookup = ExtendedInfo.reduce((result, item) => {
       result[item.id] = item;
       return result;
     }, {});
-    this.items = carData.savedItemCards.map(item => {
+    this.items = SavedItems.savedItemCards.map(item => {
       const url = item.action.url;
       const id = url.substring(url.lastIndexOf("/") + 1);
-      const extData = extendedDataLookup[id] || {};
+      const extInfo = extendedInfoLookup[id] || {};
       const titleParts = item.title.split(" ");
       return {
         id: id,
@@ -28,10 +27,10 @@ class CarData {
         price: item.price,
         year: titleParts[0],
         make: titleParts[1],
-        odometer: extData.odometer,
-        engine: extData.engine,
-        powerToWeight: extData.powerToWeight,
-        economy: extData.economy
+        odometer: extInfo.odometer,
+        engine: extInfo.engine,
+        powerToWeight: extInfo.powerToWeight,
+        economy: extInfo.economy
       };
     });
 

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "SSE-AD-3652996",
+    "odometer": 103000
+  },
+  {
+    "id": "SSE-AD-3652996",
+    "odometer": ""
+  },
+  {
+    "id": "SSE-AD-5961468",
+    "odometer": 100800,
+    "engine": "6cyl 3.0L Petrol",
+    "powerToWeight": 111.8,
+    "economy": 9.5
+  },
+  {
+    "id": "SSE-AD-6258729",
+    "odometer": 97731,
+    "engine": "4cyl 1.8L S Petrol",
+    "powerToWeight": 92.4,
+    "economy": 6.5
+  }
+]

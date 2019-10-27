@@ -1,0 +1,2005 @@
+{
+  "sectionType": "savedItemsPopulatedList",
+  "title": "Saved Cars",
+  "heading": "Saved Cars",
+  "savedItemCards": [
+    {
+      "title": "2009 Mercedes-Benz C-Class C280 Avantgarde Auto",
+      "price": "$14,700*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5961468",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/e94pybep38pum2t1rs5btb9nh.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5961468",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/e5dbc97f-c695-4784-bc41-5179aa6cc20f",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 Mercedes-Benz C-Class C200 Kompressor Avantgarde Special Edition Auto",
+      "price": "$14,400*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6258729",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/5ph5wuy6gpnb0kxn2lkkd109w.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6258729",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/11cae2c3-5d2e-4e90-9845-a4f54ae394e6",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Mercedes-Benz C-Class C220 CDI Avantgarde Auto MY10",
+      "price": "$13,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6072529",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/6qbeuxf418jpfh07mmaqx9v45.heic",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6072529",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/80c1d206-b0f6-4476-9532-ed8700d434a3",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2011 Mercedes-Benz C-Class C250 CGI Avantgarde Auto MY10",
+      "price": "$12,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6153088",
+      "priceIndicator": "Low",
+      "priceIndicatorText": "Low Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/low-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/9ot85sayjybpedkdrwt9wx3j5.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6153088",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/c6859ba7-52a1-4c6e-bebf-4eec8b235245",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 Mercedes-Benz C-Class C200 Kompressor Avantgarde Auto",
+      "price": "$11,900*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6236075",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/sbskyudecocclzqsplmcbfri.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6236075",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/ea3e6014-76a3-477e-a94f-6621f87f7ff3",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2013 Audi A3 Attraction Auto",
+      "price": "$16,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5715683",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/c1xar90l2tjq8jlegw0fpaufg.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5715683",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/6ebf840e-1e22-4905-9031-a5938b8767bb",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2011 BMW 3 Series 320i Lifestyle E90 Auto MY11",
+      "price": "$13,998*",
+      "priceInfo": "Excl. Govt. Charges",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/OAG-AD-18100093",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Dealer Used Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/car/dealer/6ccf9ba859fbe640d53a98380b33ad72.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/OAG-AD-18100093",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/aca7575b-521b-4093-bf82-18d95ee56b54",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 Mercedes-Benz C-Class C200 Kompressor Classic Auto",
+      "price": "$11,950",
+      "priceInfo": "Drive Away",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/OAG-AD-17585928",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Dealer Used Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/dealer/6p4qeofjp8ftq0pfcqghejff9.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/OAG-AD-17585928",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/0ca41637-f191-4c1e-8e41-21ec8ddea5a1",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 Mercedes-Benz C-Class C200 Kompressor Avantgarde Auto",
+      "price": "$11,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5912839",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/5y16sytj79i7fneg01tulnwxo.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5912839",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/a2d531a5-38d6-44b6-ad04-348ce758f047",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Mercedes-Benz C-Class C220 CDI Avantgarde Auto MY10",
+      "price": "$14,999",
+      "priceInfo": "Drive Away",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/OAG-AD-17460801",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Dealer Used Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/car/dealer/10h783gmo1wy430dzsbi8va33.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/OAG-AD-17460801",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/bafed6f2-4164-4acf-99f0-70a01aefe0eb",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Mercedes-Benz C-Class C200 CGI Avantgarde Auto MY10",
+      "price": "$9,900*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5800364",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/c9sbn3hqpklxutubvq922m84i.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5800364",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/60653d44-ac68-417b-b92a-c14b67917256",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Mercedes-Benz C-Class C200 CDI Classic Auto MY10",
+      "price": "$14,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-3652996",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/car/private/cp5141466177783409281.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-3652996",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/74c00946-46b8-4215-b1c2-e784d0469625",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 BMW 3 Series 320d Executive E90 Auto MY09",
+      "price": "$11,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6187265",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/28ndaoxywn8l76793niisz0e8.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6187265",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/975bb170-8f70-4df6-bc48-424664a001d5",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 BMW 3 Series 320d Lifestyle E90 Auto MY10.5",
+      "price": "$12,900*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6271677",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/46wmktebqwoj1fs1ux1spmonv.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6271677",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/e9413aed-0a21-4405-b62f-d32765d9a555",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 BMW 3 Series 320i Executive E90 Auto MY09",
+      "price": "$12,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6361436",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/3whir5jxb5pr562ph2rv5c7od.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6361436",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/c2e918c3-fd6d-4085-9ce9-ccbcce1fe49e",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 BMW 3 Series 335i E90 Auto MY10",
+      "price": "$14,999*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-4789715",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/2tg135equ9dyzr2ktdvz33fw5.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-4789715",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/3249ca33-0411-4713-8ff8-44e2b5a3f29b",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 BMW 5 Series 520d E60 Auto MY08",
+      "price": "$14,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6099312",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/bi6d9h4zsalj9qeuzjcynceg8.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6099312",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/efdd550d-8cfb-477e-8e09-6ffc9454b904",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Audi A6 Auto MY10",
+      "price": "$11,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6123763",
+      "priceIndicator": "Great",
+      "priceIndicatorText": "Great Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/great-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/2n83rtjxjhgpjmyovsierx4zm.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6123763",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/afbd6984-7eee-4d8f-9c46-a613c9fc16ee",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Audi A4 Auto MY11",
+      "price": "$16,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6193771",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/ctnh4kmnn75hbfjt3w0ri7mlw.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6193771",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/73f1edc1-3aba-41be-a248-880f64dfed97",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2014 Audi A3 Attraction Auto MY15",
+      "price": "$15,890*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6330953",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/7idce5cn363v2torf4acv5x9y.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6330953",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/8686de90-c176-43bb-80e6-469dbfb343b6",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Audi A4 Auto MY11",
+      "price": "$15,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6267770",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/7zlu95cofgn0g7mqrkrs9gsiw.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6267770",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/207a37dc-569f-44fe-b2f5-428c230dc6bf",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2013 Audi A4 Sport Edition Auto MY13",
+      "price": "$14,999*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6207949",
+      "priceIndicator": "Great",
+      "priceIndicatorText": "Great Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/great-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/dag6t0li5dtkfzz6siyqb7ngv.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6207949",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/d3212587-8044-4dcf-9c79-afba8f7c5af4",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 Audi A4 Auto MY10",
+      "price": "$14,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6215001",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/rii9j4s3rj9d4jxybbodsr5a.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6215001",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/67b66ccb-6040-41d8-92e5-84518a5ed141",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2011 Audi A5 Auto quattro MY12",
+      "price": "$14,990*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6335983",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/8glhzjv828icwf3j34lvi8mm7.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6335983",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/9d8761b9-1da7-4825-8591-9c7e3253d121",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2010 Audi A4 Auto MY10",
+      "price": "$15,200*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5614934",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/car/private/oxzlh8seprxgoi37yf0ryl149.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5614934",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/b79e6c0e-61ea-4801-911a-12a116479be0",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2012 Audi A3 Ambition Auto MY12",
+      "price": "$15,980",
+      "priceInfo": "Drive Away",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/OAG-AD-17467205",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Dealer Used Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/dealer/3bnabxobbnvktb8tl5w1i5hpm.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/OAG-AD-17467205",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/5d172070-7ec1-461e-b71c-f1d5ac68ba61",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2012 Audi A3 Ambition Auto MY12",
+      "price": "$13,586",
+      "priceInfo": "Drive Away",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/OAG-AD-18093290",
+      "priceIndicator": "Great",
+      "priceIndicatorText": "Great Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/great-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Dealer Used Car",
+      "state": "VIC",
+      "adStatus": "None",
+      "adStatusText": "",
+      "photoUrl": "https://carsales.pxcrush.net/cars/dealer/eupnwm5di14opydd2zra5ucqn.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/OAG-AD-18093290",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/c405efec-e74a-4e17-bc22-d3a642bd7be3",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 BMW 3 Series 320i Executive E90 Auto MY09",
+      "price": "$14,500*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5964801",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/48prmy2nz2ju1t18xm39xsraj.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5964801",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/555111a3-6897-46e8-8668-afea45f4f1ff",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2009 BMW 3 Series 320d Executive E90 Auto MY09",
+      "price": "$12,950*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-6323643",
+      "priceIndicator": "",
+      "priceIndicatorText": "",
+      "priceIndicatorIconUrl": "",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/5bp23qpio5agcr9kehr8pogzw.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-6323643",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/16ad921e-9bf6-45b0-adf7-03ee34d57f73",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "2011 BMW 3 Series 320d Lifestyle E90 Auto MY12",
+      "price": "$15,000*",
+      "priceInfo": "",
+      "priceGuideUrl": "/_details/api/v1/price-guide/carsales/SSE-AD-5683872",
+      "priceIndicator": "Good",
+      "priceIndicatorText": "Good Price",
+      "priceIndicatorIconUrl": "https://notification.csnstatic.com/pricing/good-price.svg",
+      "priceIndicatorInfoModalUrl": "https://notification.csnstatic.com/pricing/info-modal-v3.html",
+      "adType": "Private Seller Car",
+      "state": "VIC",
+      "adStatus": "Enquired",
+      "adStatusText": "Enquired",
+      "photoUrl": "https://carsales.pxcrush.net/cars/private/8nb3znaoh9u8k4ijfkil60ax6.jpg",
+      "action": {
+        "actionType": "savedItemsViewDetails",
+        "url": "/details/SSE-AD-5683872",
+        "tracking": {
+          "ga": {
+            "eventKey": "saved_items_list",
+            "eventType": "click",
+            "items": [
+              { "key": "eventcategory", "value": "saved_items" },
+              { "key": "eventlabel", "value": "saved_items_view_details" },
+              { "key": "event", "value": "event" }
+            ]
+          },
+          "ga5": {
+            "event": "interaction",
+            "attributes": {
+              "eventcategory": "saved_items",
+              "eventlabel": "saved_items_view_details",
+              "eventaction": "click"
+            }
+          }
+        }
+      },
+      "deleteControl": {
+        "confirmText": "Are you sure you want to delete your saved item?",
+        "proceedText": "Delete",
+        "action": {
+          "actionType": "savedItemsDelete",
+          "url": "/saved-items/api/v1/list/36d4f894-c073-4eb1-910c-cc30b59c6883",
+          "tracking": {
+            "ga": {
+              "eventKey": "saved_items_list",
+              "eventType": "click",
+              "items": [
+                { "key": "eventcategory", "value": "saved_items" },
+                { "key": "eventlabel", "value": "saved_items_deleted" },
+                { "key": "event", "value": "event" }
+              ]
+            },
+            "ga5": {
+              "event": "interaction",
+              "attributes": {
+                "eventcategory": "saved_items",
+                "eventlabel": "saved_items_deleted",
+                "eventaction": "click"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "tracking": {
+    "ga": {
+      "memberTrackingId": "8c8da442-a1f9-4990-9d2d-3368f79aacb0",
+      "eventKey": "saved_items_list",
+      "eventType": "pageView",
+      "items": [
+        { "key": "service", "value": "carsales" },
+        { "key": "event", "value": "openscreen" },
+        { "key": "contentgroup1", "value": "saved_items_list" },
+        { "key": "screenname", "value": "landing_page" },
+        { "key": "appinstanceid" }
+      ]
+    },
+    "ga5": {
+      "event": "screenview",
+      "attributes": {
+        "membertrackingid": "8c8da442-a1f9-4990-9d2d-3368f79aacb0",
+        "area": "saved_items_list",
+        "screenname": "landing_page"
+      }
+    }
+  },
+  "loadNextActionControl": {
+    "actionText": "Show more",
+    "action": {
+      "actionType": "savedItemsLoadNextItems",
+      "url": "/saved-items/api/v1/list/next/188023932",
+      "tracking": {
+        "ga": {
+          "eventKey": "saved_items_list",
+          "eventType": "click",
+          "items": [
+            { "key": "eventcategory", "value": "saved_items" },
+            { "key": "eventlabel", "value": "saved_items_load_next_items" },
+            { "key": "event", "value": "event" }
+          ]
+        },
+        "ga5": {
+          "event": "interaction",
+          "attributes": {
+            "eventcategory": "saved_items",
+            "eventlabel": "saved_items_load_next_items",
+            "eventaction": "click"
+          }
+        }
+      }
+    }
+  }
+}
