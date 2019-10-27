@@ -1,26 +1,37 @@
 import React from "react";
-import logo from "./logo.svg";
+import CarData from "./CarData";
+import Card from "./Card";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      items: {}
+    };
+  }
+
+  componentWillMount() {
+    const carData = new CarData().load();
+    //.sortByYearDesc();
+    const items = carData.items.filter(i => i.make == "Mercedes-Benz");
+    this.setState({
+      items: items
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <div className="app-card-list" id="app-card-list">
+          {Object.keys(this.state.items).map(key => (
+            <Card key={key} index={key} details={this.state.items[key]} />
+          ))}
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
