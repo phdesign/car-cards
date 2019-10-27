@@ -1,0 +1,26 @@
+.CardBody {
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+  white-space: normal;
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+.CardBody-id {
+  font-size: 0.69rem;
+  font-weight: 600;
+  color: grey;
+}
+
+.CardBody-content {
+  font-size: 0.81rem;
+  line-height: 1.8;
+}
+
+.CardBody-link {
+  float: right;
+  font-size: 1.2em;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./CardHeader.scss";
 
 class CardHeader extends React.Component {
   render() {
@@ -7,8 +8,8 @@ class CardHeader extends React.Component {
       backgroundImage: "url(" + image + ")"
     };
     return (
-      <header style={style} className="card-header">
-        <h4 className="card-header--title">{category}</h4>
+      <header style={style} className="CardHeader">
+        <h4 className="CardHeader-title">{category}</h4>
       </header>
     );
   }

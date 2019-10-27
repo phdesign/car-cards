@@ -1,4 +1,5 @@
 import React from "react";
+import "./CardBody.scss";
 
 class CardBody extends React.Component {
   render() {
@@ -12,11 +13,11 @@ class CardBody extends React.Component {
       ? this.props.details.economy + " L/100km"
       : null;
     return (
-      <div className="card-body">
-        <p className="date">
+      <div className="CardBody">
+        <p className="CardBody-id">
           <a
             href={"https://www.carsales.com.au" + this.props.details.url}
-            className="body-link"
+            className="CardBody-link"
           >
             <i className="fa fa-external-link"></i>
           </a>
@@ -24,7 +25,7 @@ class CardBody extends React.Component {
         </p>
         <h2>{this.props.details.title}</h2>
 
-        <p className="body-content">
+        <p className="CardBody-content">
           {[
             this.props.details.price,
             odometerString,
