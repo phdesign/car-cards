@@ -1,6 +1,6 @@
 import React from "react";
-import CarData from "./CarData";
-import Card from "./Card";
+import CarData from "../../CarData";
+import Card from "../Card";
 import "./App.scss";
 
 class App extends React.Component {
