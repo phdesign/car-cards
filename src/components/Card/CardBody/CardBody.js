@@ -16,7 +16,9 @@ class CardBody extends React.Component {
       <div className="CardBody">
         <div className="CardBody-id">
           <a
-            href={"https://www.carsales.com.au" + this.props.details.url}
+            href={this.props.details.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="CardBody-link"
           >
             <i className="fa fa-external-link"></i>
