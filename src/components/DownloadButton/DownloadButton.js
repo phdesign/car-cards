@@ -13,7 +13,12 @@ class DownloadButton extends React.Component {
     const carService = new CarService();
     carService
       .getExtendedInfo(this.props.cars)
-      .then(items => this.downloadFile("extendedInfo.json", items));
+      .then(items =>
+        this.downloadFile(
+          "extendedInfo.json",
+          JSON.stringify(items, null, "  ")
+        )
+      );
   }
 
   downloadFile(filename, text) {

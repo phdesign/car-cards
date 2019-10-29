@@ -27,18 +27,7 @@ class CachedCarService {
   getExtendedInfo(cars) {
     const promises = cars.map(car => {
       const extendedInfo = ExtendedInfo.find(x => x.id === car.id);
-      if (extendedInfo) {
-        return Promise.resolve({
-          id: extendedInfo.id,
-          extendedInfo: {
-            odometer: extendedInfo.odometer,
-            engine: extendedInfo.engine,
-            powerToWeight: extendedInfo.powerToWeight,
-            economy: extendedInfo.economy
-          }
-        });
-      }
-      return { id: car.id, extendedInfo: {} };
+      return Promise.resolve(extendedInfo || { id: car.id, extendedInfo: {} });
     });
     return Promise.all(promises);
   }

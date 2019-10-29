@@ -1,24 +1,92 @@
 [
   {
-    "id": "SSE-AD-3652996",
-    "odometer": 103000
-  },
-  {
-    "id": "SSE-AD-3652996",
-    "odometer": ""
-  },
-  {
     "id": "SSE-AD-5961468",
-    "odometer": 100800,
-    "engine": "6cyl 3.0L Petrol",
-    "powerToWeight": 111.8,
-    "economy": 9.5
+    "extendedInfo": {
+      "odometer": 100800,
+      "engine": "6 cylinder Petrol Aspirated 3.0L",
+      "economy": 9.5,
+      "powerToWeight": 111.8
+    }
   },
   {
     "id": "SSE-AD-6258729",
-    "odometer": 97731,
-    "engine": "4cyl 1.8L S Petrol",
-    "powerToWeight": 92.4,
-    "economy": 6.5
+    "extendedInfo": {
+      "odometer": 97731,
+      "engine": "4 cylinder Petrol Supercharged 1.8L",
+      "economy": 8,
+      "powerToWeight": 92.4
+    }
+  },
+  {
+    "id": "SSE-AD-6236075",
+    "extendedInfo": {
+      "odometer": 130150,
+      "engine": "4 cylinder Petrol Supercharged 1.8L",
+      "economy": 8,
+      "powerToWeight": 92.4
+    }
+  },
+  {
+    "id": "OAG-AD-17585928",
+    "extendedInfo": {
+      "odometer": 163106,
+      "engine": "4 cylinder Petrol Supercharged 1.8L",
+      "economy": 8,
+      "powerToWeight": 92.4
+    }
+  },
+  {
+    "id": "SSE-AD-5912839",
+    "extendedInfo": {
+      "odometer": 120732,
+      "engine": "4 cylinder Petrol Supercharged 1.8L",
+      "economy": 8,
+      "powerToWeight": 92.4
+    }
+  },
+  {
+    "id": "SSE-AD-6072529",
+    "extendedInfo": {
+      "odometer": 137000,
+      "engine": "4 cylinder Diesel Turbo Intercooled 2.1L",
+      "economy": 6.3,
+      "powerToWeight": 79.4
+    }
+  },
+  {
+    "id": "OAG-AD-17460801",
+    "extendedInfo": {
+      "odometer": 108401,
+      "engine": "4 cylinder Diesel Turbo Intercooled 2.1L",
+      "economy": 6.3,
+      "powerToWeight": 79.4
+    }
+  },
+  {
+    "id": "SSE-AD-5800364",
+    "extendedInfo": {
+      "odometer": 160000,
+      "engine": "4 cylinder Petrol Turbo Intercooled 1.8L",
+      "economy": 7.3,
+      "powerToWeight": 92.4
+    }
+  },
+  {
+    "id": "SSE-AD-3652996",
+    "extendedInfo": {
+      "odometer": null,
+      "engine": "4 cylinder Diesel Turbo Intercooled 2.1L",
+      "economy": 5.6,
+      "powerToWeight": 66
+    }
+  },
+  {
+    "id": "SSE-AD-6153088",
+    "extendedInfo": {
+      "odometer": 124000,
+      "engine": "4 cylinder Petrol Turbo Intercooled 1.8L",
+      "economy": 7.7,
+      "powerToWeight": 101.4
+    }
   }
 ]
