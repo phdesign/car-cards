@@ -3,18 +3,18 @@ import "./CardBody.scss";
 
 class CardBody extends React.Component {
   render() {
-    const odometerString = this.props.details.odometer
-      ? this.props.details.odometer.toLocaleString() + " km"
+    const odometerString = this.props.details.extendedInfo.odometer
+      ? this.props.details.extendedInfo.odometer.toLocaleString() + " km"
       : null;
-    const powerToWeightString = this.props.details.powerToWeight
-      ? this.props.details.powerToWeight + " kW/t"
+    const powerToWeightString = this.props.details.extendedInfo.powerToWeight
+      ? this.props.details.extendedInfo.powerToWeight + " kW/t"
       : null;
-    const economyString = this.props.details.economy
-      ? this.props.details.economy + " L/100km"
+    const economyString = this.props.details.extendedInfo.economy
+      ? this.props.details.extendedInfo.economy + " L/100km"
       : null;
     return (
       <div className="CardBody">
-        <p className="CardBody-id">
+        <div className="CardBody-id">
           <a
             href={"https://www.carsales.com.au" + this.props.details.url}
             className="CardBody-link"
@@ -22,18 +22,20 @@ class CardBody extends React.Component {
             <i className="fa fa-external-link"></i>
           </a>
           {this.props.details.id}
-        </p>
+        </div>
         <h2>{this.props.details.title}</h2>
 
-        <p className="CardBody-content">
+        <div className="CardBody-content">
           {[
             this.props.details.price,
             odometerString,
-            this.props.details.engine,
+            this.props.details.extendedInfo.engine,
             powerToWeightString,
             economyString
-          ].reduce((result, item) => (item ? [result, <br />, item] : result))}
-        </p>
+          ].map((item, index) => (
+            <div key={index}>{item}</div>
+          ))}
+        </div>
       </div>
     );
   }

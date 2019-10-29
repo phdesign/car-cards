@@ -16,11 +16,26 @@ class CardList extends React.Component {
     };
   }
 
-  componentWillMount() {
-    const cars = this.loadCars().filter(i => i.make === "Mercedes-Benz");
+  async componentDidMount() {
+    const cars = this.fetchCars().filter(i => i.make === "Mercedes-Benz");
     this.setState({
       cars: cars,
-      sortBy: this.byYearDesc
+      sortBy: null
+    });
+
+    const extendedInfoPromises = this.fetchExtendedInfo(cars).map(promise =>
+      promise.catch(error => {
+        console.warn(error);
+        return {};
+      })
+    );
+    const results = await Promise.all(extendedInfoPromises);
+    var newCars = this.state.cars.map(car =>
+      Object.assign({}, car, results.find(info => car.id === info.id) || {})
+    );
+
+    this.setState({
+      cars: newCars
     });
   }
 
@@ -37,35 +52,43 @@ class CardList extends React.Component {
     );
   }
 
-  loadCars() {
-    const extendedInfoLookup = ExtendedInfo.reduce((result, item) => {
-      result[item.id] = item;
-      return result;
-    }, {});
-    return SavedItems.savedItemCards.map(item =>
-      this.getCar(item, extendedInfoLookup)
-    );
+  fetchCars() {
+    return SavedItems.savedItemCards.map(item => this.getCar(item));
   }
 
-  getCar(info, extendedInfoLookup) {
-    const url = info.action.url;
+  getCar(item) {
+    const url = item.action.url;
     const id = url.substring(url.lastIndexOf("/") + 1);
-    const extendedInfo = extendedInfoLookup[id] || {};
-    const titleParts = info.title.split(" ");
+    const titleParts = item.title.split(" ");
     return {
       id: id,
-      url: info.action.url,
-      title: info.title,
-      adType: info.adType,
-      photoUrl: info.photoUrl,
-      price: info.price,
+      url: item.action.url,
+      title: item.title,
+      adType: item.adType,
+      photoUrl: item.photoUrl,
+      price: item.price,
       year: titleParts[0],
       make: titleParts[1],
-      odometer: extendedInfo.odometer,
-      engine: extendedInfo.engine,
-      powerToWeight: extendedInfo.powerToWeight,
-      economy: extendedInfo.economy
+      extendedInfo: {}
     };
+  }
+
+  fetchExtendedInfo(cars) {
+    return cars.map(car => {
+      const extendedInfo = ExtendedInfo.find(x => x.id === car.id);
+      if (extendedInfo) {
+        return Promise.resolve({
+          id: extendedInfo.id,
+          extendedInfo: {
+            odometer: extendedInfo.odometer,
+            engine: extendedInfo.engine,
+            powerToWeight: extendedInfo.powerToWeight,
+            economy: extendedInfo.economy
+          }
+        });
+      }
+      return Promise.resolve({});
+    });
   }
 
   byYearAsc(a, b) {
