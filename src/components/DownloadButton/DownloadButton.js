@@ -13,11 +13,13 @@ class DownloadButton extends React.Component {
     const carService = new CarService();
     carService
       .getExtendedInfo(this.props.cars)
-      .then(items =>
-        this.downloadFile(
-          "extendedInfo.json",
-          JSON.stringify(items, null, "  ")
-        )
+      .then(
+        items =>
+          this.downloadFile(
+            "extendedInfo.json",
+            JSON.stringify(items, null, "  ")
+          ),
+        error => console.warn(error)
       );
   }
 
@@ -28,12 +30,9 @@ class DownloadButton extends React.Component {
       "data:text/plain;charset=utf-8," + encodeURIComponent(text)
     );
     element.setAttribute("download", filename);
-
     element.style.display = "none";
     document.body.appendChild(element);
-
     element.click();
-
     document.body.removeChild(element);
   }
 

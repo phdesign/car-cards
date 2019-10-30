@@ -2,13 +2,7 @@ import cheerio from "cheerio";
 
 class RemoteCarService {
   getExtendedInfo(cars) {
-    const promises = cars.map(car =>
-      this.fetchExtendedInfo(car).catch(error => {
-        console.warn(error);
-        return {};
-      })
-    );
-    return Promise.all(promises);
+    return Promise.all(cars.map(car => this.fetchExtendedInfo(car)));
   }
 
   async fetchExtendedInfo(car) {

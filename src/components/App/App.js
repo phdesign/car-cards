@@ -21,20 +21,20 @@ class App extends React.Component {
     this.handleChangeSortDirection = this.handleChangeSortDirection.bind(this);
   }
 
-  async componentDidMount() {
+  componentDidMount() {
     const carService = new CarService();
-    let cars = await carService.getCars();
-    this.setState({
-      cars: cars
-    });
-
-    const results = await carService.getExtendedInfo(cars);
-    let newCars = this.state.cars.map(car =>
-      Object.assign({}, car, results.find(info => car.id === info.id) || {})
+    let cars = carService.getCars();
+    const extendedInfo = carService.getExtendedInfo(cars);
+    cars = cars.map(car =>
+      Object.assign(
+        {},
+        car,
+        extendedInfo.find(info => car.id === info.id) || {}
+      )
     );
 
     this.setState({
-      cars: newCars
+      cars: cars
     });
   }
 

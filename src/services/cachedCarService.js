@@ -3,8 +3,7 @@ import ExtendedInfo from "../data/extendedInfo";
 
 class CachedCarService {
   getCars() {
-    const cars = SavedItems.savedItemCards.map(item => this.getCar(item));
-    return Promise.resolve(cars);
+    return SavedItems.savedItemCards.map(item => this.getCar(item));
   }
 
   getCar(item) {
@@ -25,11 +24,11 @@ class CachedCarService {
   }
 
   getExtendedInfo(cars) {
-    const promises = cars.map(car => {
+    const extendedInfoList = cars.map(car => {
       const extendedInfo = ExtendedInfo.find(x => x.id === car.id);
-      return Promise.resolve(extendedInfo || { id: car.id, extendedInfo: {} });
+      return extendedInfo || { id: car.id, extendedInfo: {} };
     });
-    return Promise.all(promises);
+    return extendedInfoList;
   }
 }
 
