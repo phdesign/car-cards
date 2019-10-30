@@ -4,7 +4,7 @@ import "./CardHeader.scss";
 class CardHeader extends React.Component {
   render() {
     const { image, category } = this.props;
-    var style = {
+    const style = {
       backgroundImage: "url(" + image + ")"
     };
     return (

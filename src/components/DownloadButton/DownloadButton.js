@@ -8,8 +8,8 @@ class DownloadButton extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(e) {
-    e.preventDefault();
+  handleClick(event) {
+    event.preventDefault();
     const carService = new CarService();
     carService
       .getExtendedInfo(this.props.cars)
@@ -22,7 +22,7 @@ class DownloadButton extends React.Component {
   }
 
   downloadFile(filename, text) {
-    var element = document.createElement("a");
+    const element = document.createElement("a");
     element.setAttribute(
       "href",
       "data:text/plain;charset=utf-8," + encodeURIComponent(text)
